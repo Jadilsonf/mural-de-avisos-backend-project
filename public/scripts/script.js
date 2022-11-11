@@ -41,7 +41,7 @@ function newPost(){
     fetch("http://localhost:3000/api/new", options).then(res =>{
         console.log(res)
         updatePosts()
-        let title = document.getElementById("title").value = ""
-    let description = document.getElementById("desc").value = ""
+        document.getElementById("title").value = ""
+        document.getElementById("desc").value = ""
     })
 }
