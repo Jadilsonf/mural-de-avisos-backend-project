@@ -2,7 +2,7 @@ module.exports = {
     posts: [
         {id:"hsuahsauh",
          title: "teste do mural",
-         description: "descrição do tste"},
+         description: "descrição do teste"},
     ],
     // O getAll é um método própro do javascript
     getAll(){
